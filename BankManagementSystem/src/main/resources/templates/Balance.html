@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Bank Management System</title>
+<link th:href="@{/CSS/Balance.css}" rel="stylesheet">
+</head>
+<body>
+	<div>
+		<h1 class="result">Your Current Balance</h1>
+	</div>
+	<table class="balanceTable">
+		<tr>
+			<td><p class="balance"> Balance (INR) : </p></td>
+			<td class="balanceAmt" th:text="${Balance}"></td>
+		</tr>
+		<tr>
+			<!--  <td>
+				<h3 class="withdraw"><a class="withdrawLink"th:href="@{/welcome/login/withdraw}">Withdraw</a></h3>
+			</td>
+			<td>
+				<h3 class="addfund"><a class="addfundLink" th:href="@{/welcome/login/addfund}">Add Fund</a></h3>
+			</td>-->
+		</tr>
+		<tr>
+			<td colspan="2"><h3 class="logout"><a class="logoutLink"th:href="@{/welcome}">Logout</a></h3></td>
+		</tr>
+	</table>
+	
+</body>
+</html>

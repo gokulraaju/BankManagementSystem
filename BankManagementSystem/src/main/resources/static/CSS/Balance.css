@@ -1,0 +1,81 @@
+body{
+	background-color: #FFDEAD;
+	margin:0px;
+	padding: 0px;
+}
+.result{
+	color:green;
+	font-family: cursive;
+	text-align: center;
+}
+.balanceTable{
+	margin-left:630px;
+	margin-top:50px;
+}
+.balance{
+	font-size: 20px;
+	font-family: sans-serif;
+}
+.balanceAmt{
+	color:green;
+	font-size: 20px;
+	padding: 10px;
+	text-align:center;
+}
+.withdraw{
+	background-color:#A52A2A;
+	padding : 5px 10px;
+	font-size: 15px;
+	border-radius: 20px;
+	box-shadow: 5px 5px 12px grey;
+	text-align: center;
+	font-family:cursive;
+}
+.withdrawLink{
+	text-decoration: none;
+	color:white;
+}
+.addfund{
+	background-color:#A52A2A;
+	padding : 5px 30px;
+	font-size: 15px;
+	border-radius: 20px;
+	box-shadow: 5px 5px 12px grey;
+	text-align: center;
+	font-family:cursive;
+}
+.addfundLink{
+	text-decoration: none;
+	color:white;
+}
+.logout{
+	background-color:#A52A2A;
+	padding : 5px 10px;
+	font-size: 15px;
+	border-radius: 20px;
+	box-shadow: 5px 5px 12px grey;
+	text-align: center;
+	font-family:cursive;
+}
+.logoutLink{
+	text-decoration: none;
+	color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

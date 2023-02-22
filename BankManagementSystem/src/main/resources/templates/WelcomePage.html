@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Bank Management System</title>
+<link rel="stylesheet" th:href="@{/CSS/WelcomePage.css}" type="text/css">
+</head>
+<body>
+	<div class="container">
+		<div>
+			<h1 class="title">Gokul's Bank Management System</h1>
+		</div>
+		<div class="centerTable">
+		<table class="table">
+			<tr>
+				<h3 class="createAcc"><a class="createLink" th:href = "@{/welcome/createAccount}">Create Account</a></h3>
+			</tr>
+			<tr>
+				<h3 class="or">OR</h3>
+			</tr>
+			<tr>
+				<h3 class="login"><a class="loginLink" th:href ="@{/welcome/login}">Log in</a></h3>
+			</tr>
+			
+		</table>
+		</div>
+	</div>
+</body>
+</html>

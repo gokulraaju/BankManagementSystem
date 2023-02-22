@@ -1,0 +1,25 @@
+body{
+	background-color: #FFDEAD;
+	margin:0px;
+	padding: 0px;
+}
+.result{
+	color:green;
+	font-family: cursive;
+	text-align: center;
+}
+.login{
+	background-color:#A52A2A;
+	margin-left:500px;
+	margin-right:500px;
+	padding : 20px 30px;
+	font-size: 30px;
+	border-radius: 20px;
+	box-shadow: 5px 5px 12px grey;
+	text-align: center;
+	font-family:cursive;
+}
+.loginLink{
+	text-decoration: none;
+	color:white;
+}

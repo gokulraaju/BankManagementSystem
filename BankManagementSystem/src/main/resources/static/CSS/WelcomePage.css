@@ -1,0 +1,46 @@
+.title{
+	text-align:center;
+	color:#800000;
+	font-family:sans-serif;
+	font-size: 40px;
+}
+body{
+	background-color: #FFDEAD;
+	margin:0px;
+	padding: 0px;
+}
+.centerTable{
+	display: inline-block;
+    margin-left: 620px;
+}
+.createAcc{
+	background-color:#A52A2A;
+	padding : 20px 30px;
+	font-size: 30px;
+	border-radius: 20px;
+	box-shadow: 5px 5px 12px grey;
+	font-family:cursive;
+}
+.createLink{
+	text-decoration: none;
+	color:white;
+}
+.or{
+	font-size: 30px;
+	text-align: center;
+	font-family:cursive;
+	color:#A52A2A;
+}
+.login{
+	background-color:#A52A2A;
+	padding : 20px 30px;
+	font-size: 30px;
+	border-radius: 20px;
+	box-shadow: 5px 5px 12px grey;
+	text-align: center;
+	font-family:cursive;
+}
+.loginLink{
+	text-decoration: none;
+	color:white;
+}

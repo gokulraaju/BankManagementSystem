@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Bank Management System</title>
+<link th:href="@{/CSS/LoginPage.css}" rel="stylesheet">
+</head>
+<body>
+	<div>
+		<h3 class="title">Enter Your Credential to Login</h3>
+	</div>
+	<table class="loginTable">
+		<form th:action="@{/welcome/login}" th:object="${bankCustomerEntity}" method="POST">
+			<tr>
+				<td><label class="tagline">Enter Your User Id :</label></td>
+				<td><input class="fields" type="text" name="name" th:fields="*{name}" placeholder="Enter Your User Name" required="required"></td> 
+			</tr>
+			<tr>
+				<td><label class="tagline" >Enter Your Password :</label></td>
+				<td><input class="fields" type="password" name="passwords" th:fields="*{passwords}" placeholder="Enter Your Password" required="required"> </td>
+			</tr>
+			
+			<tr>
+			<td colspan="2"> 
+			<button class="loginButton" type="submit">Sign In</button></td>
+			</tr>
+		</form>
+	</table>
+</body>
+</html>

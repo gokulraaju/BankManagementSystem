@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Bank Management System</title>
+<link th:href="@{/CSS/CreateCustomer.css}" rel="stylesheet">
+</head>
+<body>
+<div>
+	<h1 class="title">Create Account</h1>
+</div>
+<div>
+<table class="createTable">
+	<form th:action="@{/welcome}" th:object ="${bankCustomerEntity}" method="POST">
+	<tr>
+		<td><label class="tagline">Enter Your Name : </label></td>
+		<td><input class="fields" type = "text" name="name" th:fields="*{name}" placeholder ="Enter Your Name" required="required"></td>
+	</tr>
+	<tr>
+		<td><label class="tagline">Enter Your D.O.B : </label></td>
+		<td><input class="fields" type = "date" name="dob" th:fields="*{dob}" placeholder ="Enter Your DOB" required="required"></td>
+	</tr>
+	<tr>
+		<td><label class="tagline">Enter Your Email : </label></td>
+		<td><input class="fields" type = "email" name="emails" th:fields="*{emails}" placeholder ="Enter Your Email" required="required"></td>
+	</tr>
+	<tr>
+		<td><label class="tagline">Create Your Password : </label></td>
+		<td><input class="fields" type = "password" name="passwords" th:fields="*{passwords}" placeholder ="Create Your Password" required="required"></td>
+	</tr>
+	<tr>
+		<td><label class="tagline">Your Minimum Balance : </label></td>
+		<td><input class="fields" type = "number" name="balance" th:fields="*{balance}" min="5000.0" placeholder="Enter Your Amount" required="required"></td>
+	</tr>
+	<tr>
+	<td colspan="2"><button class="createButton" type="submit">Create Account</button></td></tr>
+	</form>
+	
+</table>
+</div>
+</body>
+</html>
